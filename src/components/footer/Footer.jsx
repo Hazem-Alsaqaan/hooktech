@@ -17,11 +17,11 @@ function Footer() {
               <div className="px-10 py-4 bg-neutral-800 rounded-lg">
                 <a
                   className="text-blue-300 hover:text-neutral-200 duration-100 block mb-5 max-[420px]:text-sm"
-                  href="mailto:hoocktech.company@gmail.com"
+                  href="mailto:hooktech.company@gmail.com"
                   target="_blank"
                   title="send mail"
                 >
-                  hoocktech.company@gmail.com
+                  hooktech.company@gmail.com
                 </a>
                 <div className="flex items-center justify-center gap-6">
                   <a
@@ -58,7 +58,7 @@ function Footer() {
                   </a>
                   <a
                     className="w-12 h-12"
-                    href="mailto:hoocktech.company@gmail.com"
+                    href="mailto:hooktech.company@gmail.com"
                     target="_blank"
                     title="send mail"
                   >
