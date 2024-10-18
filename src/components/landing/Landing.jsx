@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Hero from "../../../public/afterlanding.jpg";
-import Mobhand from "../../../public/mobhand.png";
 
 const Landing = () => {
   return (

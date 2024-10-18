@@ -6,12 +6,14 @@ import Landing from "@/components/landing/Landing";
 
 export default function Home() {
   return (
-    <main>
-      <Header />
-      <Landing />
-      <About />
-      <CompanyServices />
-      <Footer />
-    </main>
+    <>
+      <main>
+        <Header />
+        <Landing />
+        <About />
+        <CompanyServices />
+        <Footer />
+      </main>
+    </>
   );
 }
