@@ -10,7 +10,7 @@ const About = () => {
       <SectionTitle title={"About"} />
       <div className="flex items-center justify-center gap-1 max-lg:flex-col-reverse">
         <div className="flex-1">
-          <p className="text-black font-medium text-2xl leading-10 max-md:text-xl">
+          <p className="text-black font-semibold text-xl leading-10 max-md:text-base p-4">
             We are a technology-driven company dedicated to crafting innovative
             mobile applications and websites. Our expertise spans across both
             Android and iOS platforms, as well as web development, enabling us

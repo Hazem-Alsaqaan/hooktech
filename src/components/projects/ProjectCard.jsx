@@ -4,13 +4,7 @@ import React from "react";
 function ProjectCard({ item }) {
   return (
     <div className="relative p-4 rounded bg-white shadow-xl hover:scale-110 duration-300 flex items-center justify-center overflow-hidden">
-      <Image
-        src={item.picture}
-        width={500}
-        height={1000}
-        alt={item.title}
-        //   className="h-full w-full"
-      />
+      <Image src={item.picture} width={500} height={1000} alt={item.title} />
       <div className=" absolute w-full h-full top-0 left-0 bg-black/40 flex items-center justify-center hover:bg-black/10 duration-300">
         <a
           href={item.url}

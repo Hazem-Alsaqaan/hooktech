@@ -1,3 +1,4 @@
+import ContactsBox from "../ContactsBox";
 import Logo from "../header/Logo";
 import Image from "next/image";
 
@@ -14,65 +15,7 @@ function Footer() {
               <h6 className="text-slate-200 text-xs my-8 text-center">
                 WE ALWAYS STRIVE TO SERVE YOU
               </h6>
-              <div className="px-10 py-4 bg-neutral-800 rounded-lg">
-                <a
-                  className="text-blue-300 hover:text-neutral-200 duration-100 block mb-5 max-[420px]:text-sm"
-                  href="mailto:hooktech.company@gmail.com"
-                  target="_blank"
-                  title="send mail"
-                >
-                  hooktech.company@gmail.com
-                </a>
-                <div className="flex items-center justify-center gap-6">
-                  <a
-                    className="w-12 h-12"
-                    href="https://www.facebook.com/hazem.hamdy.71"
-                    target="_blank"
-                    title="facebook"
-                  >
-                    {" "}
-                    <Image
-                      src={
-                        "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1729169672/hooktech/facebook_2504903_d2hmm6.png"
-                      }
-                      alt=""
-                      width={"100"}
-                      height={"100"}
-                    />
-                  </a>
-
-                  <a
-                    className="w-12 h-12"
-                    href=" https://wa.me/+201017997927"
-                    target="_blank"
-                    title="What'sApp"
-                  >
-                    <Image
-                      src={
-                        "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1729169672/hooktech/whatsapp_2504957_tuy18h.png"
-                      }
-                      alt=""
-                      width={"100"}
-                      height={"100"}
-                    />
-                  </a>
-                  <a
-                    className="w-12 h-12"
-                    href="mailto:hooktech.company@gmail.com"
-                    target="_blank"
-                    title="send mail"
-                  >
-                    <Image
-                      src={
-                        "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1729169672/hooktech/mail_2772369_rwlv9j.png"
-                      }
-                      width={"100"}
-                      height={"100"}
-                      alt=""
-                    />
-                  </a>
-                </div>
-              </div>
+              <ContactsBox />
             </div>
           </div>
           <div>

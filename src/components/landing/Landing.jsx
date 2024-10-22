@@ -27,10 +27,13 @@ const Landing = () => {
             we make your ideas come to life with the <br />
             latest technology and assured quality
           </p>
-          <div className="max-lgg:flex max-lgg:items-center max-lgg:justify-center">
-            <button className="p-4 text-white rounded-md bg-red-500 font-bold text-2xl max-lg:text-lg  max-lg:p-2 max-xs:text-sm shadow-xl cursor-pointer whitespace-nowrap">
+          <div className="mt-10 max-lgg:flex max-lgg:items-center max-lgg:justify-center">
+            <a
+              href="#contact-us"
+              className="p-4 text-white rounded-md bg-red-500 font-bold text-2xl max-lg:text-lg  max-lg:p-2 max-xs:text-sm shadow-xl cursor-pointer whitespace-nowrap"
+            >
               {`Let's Contact`}
-            </button>
+            </a>
           </div>
         </div>
         <div className="flex-1 flex items-center justify-center min-w-80 max-lg:min-w-64 relative max-xs:min-w-44">

@@ -46,6 +46,7 @@ const HeaderNavigation = () => {
     } else if (endPoint === "Contact Us") {
       setActiveLink("Contact Us");
     }
+    setShowLinks(false);
   };
   return (
     <>

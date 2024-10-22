@@ -33,7 +33,7 @@ function Projects() {
     >
       <SectionTitle title={"Projects"} />
       <div className="flex flex-col items-center justify-center">
-        <h6 className="text-base font-bold text-neutral-400 mb-3">
+        <h6 className="text-base font-bold text-neutral-400 mb-5">
           some of our works
         </h6>
         <div className="w-full grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8">
