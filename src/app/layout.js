@@ -34,19 +34,16 @@ export const metadata = {
     "Front-end development",
   ],
   icons: {
-    icon: ["../../public/HookTech.png"],
+    icon: "/favicon.png",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link
-        rel="icon"
-        href="../../public/HookTech.png"
-        type="image/png"
-        sizes="any"
-      />
+      <Head>
+        <link rel="icon" href="/favicon.png" type="image/x-icon" />
+      </Head>
       <body className={openSans.className}>{children}</body>
     </html>
   );

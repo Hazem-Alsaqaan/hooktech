@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa6";
 
 const HeaderNavigation = () => {
   const [showLinks, setShowLinks] = useState(false);
-  const [activeLink, setActiveLink] = useState("home");
+  const [activeLink, setActiveLink] = useState("Home");
   const linksData = [
     {
       _id: 1,

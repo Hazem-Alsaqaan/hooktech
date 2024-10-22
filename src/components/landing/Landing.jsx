@@ -4,7 +4,7 @@ import Hero from "../../../public/afterlanding.jpg";
 const Landing = () => {
   return (
     <div
-      className={`min-h-screen px-16 py-24 max-md:px-6 max-sm:px-2 bg-gradient-to-tl mx-auto from-white from-10% via-10% via-blue-500 to-blue-500 flex items-center justify-center flex-wrap select-none`}
+      className={`min-h-screen px-16 py-24 max-md:px-6 max-sm:px-2 bg-gradient-to-tl mx-auto from-white from-10% via-10% via-blue-500 to-blue-900 flex items-center justify-center flex-wrap select-none`}
     >
       <Image
         src={Hero}
