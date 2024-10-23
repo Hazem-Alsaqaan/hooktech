@@ -1,7 +1,5 @@
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
-
 const openSans = Open_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "600", "500", "700", "800"],
@@ -33,17 +31,11 @@ export const metadata = {
     "Digital presence",
     "Front-end development",
   ],
-  icons: {
-    icon: "/favicon.png",
-  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/favicon.png" type="image/x-icon" />
-      </Head>
       <body className={openSans.className}>{children}</body>
     </html>
   );
