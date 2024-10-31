@@ -35,7 +35,7 @@ function ContactsBox() {
             alt=""
             width={"100"}
             height={"100"}
-            className="w-6 h-8"
+            className="w-6 h-6"
           />
           <span className="text-white capitalize hover:text-slate-300 duration-75">
             linkedin
@@ -55,7 +55,7 @@ function ContactsBox() {
             alt=""
             width={"100"}
             height={"100"}
-            className="w-6 h-8"
+            className="w-6 h-6"
           />
           <span className="text-white capitalize hover:text-slate-300 duration-75">
             facebook
@@ -76,7 +76,7 @@ function ContactsBox() {
             alt=""
             width={"100"}
             height={"100"}
-            className="w-6 h-8"
+            className="w-6 h-6"
           />
           <span className="text-white capitalize hover:text-slate-300 duration-75">
             instagram
@@ -96,7 +96,7 @@ function ContactsBox() {
             alt=""
             width={"100"}
             height={"100"}
-            className="w-6 h-8"
+            className="w-6 h-6"
           />
 
           <span className="text-white capitalize hover:text-slate-300 duration-75">{`What'sApp`}</span>
@@ -114,7 +114,7 @@ function ContactsBox() {
             alt=""
             width={"100"}
             height={"100"}
-            className="w-6 h-8"
+            className="w-6 h-6"
           />
 
           <span className="text-white capitalize hover:text-slate-300 duration-75">
@@ -135,7 +135,7 @@ function ContactsBox() {
             alt=""
             width={"100"}
             height={"100"}
-            className="w-6 h-8"
+            className="w-6 h-6"
           />
           <span className="text-white capitalize hover:text-slate-300 duration-75">
             tiktok
