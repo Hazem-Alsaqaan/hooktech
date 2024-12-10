@@ -84,7 +84,7 @@ function ContactsBox() {
         </a>
 
         <a
-          href=" https://wa.me/+201017997927"
+          href=" https://wa.me/+201558417927"
           target="_blank"
           title="What'sApp"
           className="flex items-end gap-2"
